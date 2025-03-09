@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spiritual Hub</title>
+    <title>Bhagavad Geeta</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -53,22 +53,45 @@
             color: white;
             font-size: 0.9rem;
         }
+
+        /* Button styles */
+        .back-btn {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: #2980B9;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background-color: #1ABC9C;
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Spiritual Hub</h1>
+        <h1>Bhagavad Geeta</h1>
     </header>
 
     <div class="container">
-        <h2>Read Sacred Texts</h2>
+        <h2>Explore the Chapters of the Bhagavad Geeta</h2>
         <ul>
-            <li><a href="https://en.wikipedia.org/wiki/Bhagavad_Gita" target="_blank">Bhagavad Geeta</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Vishnu_Sahasranama" target="_blank">Vishnu Sahasranama</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Durga_Saptashati" target="_blank">Durga Saptashati</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Bhagavad_Gita#Chapter_1" target="_blank">Chapter 1: Arjuna Vishada Yoga</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Bhagavad_Gita#Chapter_2" target="_blank">Chapter 2: Sankhya Yoga</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Bhagavad_Gita#Chapter_3" target="_blank">Chapter 3: Karma Yoga</a></li>
+            <!-- Add more chapters as needed -->
         </ul>
     </div>
+
+    <!-- Back Button -->
+    <button class="back-btn" onclick="window.location.href='../index.html';">Go Back to Main Page</button>
 
     <footer>
         <p>&copy; 2025 Spiritual Hub. All rights reserved.</p>
